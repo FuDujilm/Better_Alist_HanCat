@@ -10,6 +10,8 @@
 ```html
 <!--引用hancat原本仓库的css文件!-->
 <link href="https://api.hancat.link/cloud/alist.css" rel="stylesheet" type="text/css">  
+```
+```html
 <!--本仓库修改版-->
 <link href="https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/alist.css" rel="stylesheet" type="text/css">  
 ```
