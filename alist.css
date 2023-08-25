@@ -2,6 +2,7 @@
 created by
 TheSmallHanCat
 Koyuki
+limeneko *fudujilm
 用于文件目录美化以及背景图
 */
 
@@ -125,4 +126,12 @@ body{
     .sw-Hennnyano:hover {
         cursor:pointer!important
     }
+}
+// 以下是live2d 悬浮效果
+#chino{
+    left: 0;
+    bottom: 0;
+    z-index: 520; /* 如果模型被遮住可以把它改的更大 */
+    position: fixed;
+    pointer-events: none; /* 防止遮住鼠标点击页面其他内容 */
 }

@@ -6,6 +6,13 @@
 
 * 添加回到顶部猫猫  
 
+## 借物表
+* https://mx.paul.ren/model/chino.html
+> Live2d :
+> 模型作者：Hernes_VR
+> 模型出处：FaceRig 创意工坊
+> 版权要求：禁止商业使用
+* https://github.com/journey-ad/live2d_src/
 ## 自定义头部  
 ```html
 <!--引用hancat原本仓库的css文件!-->
@@ -33,6 +40,12 @@
     <script src="https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/js/app.bundle.js"></script>
 <div id="jsi-flying-fish-container" class="fish-container"></div>
 <script src='https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/fish.js'></script>
+<!--Live2d支持-->
+<canvas id="paul" width="280" height="250"></canvas>
+<script src="https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/js/src/live2d.min.js"></script>
+<!--引用模型 .json是模型文件-->
+<script>loadlive2d('chino', 'https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/js/chino_live2d/model.json');</script>
+
 ```
 ```html
 <!--未修改版-->
@@ -49,6 +62,7 @@
     <script src="https://api.hancat.link/cloud/parallax.min.js"></script>
     <script src="https://api.hancat.link/cloud/app.bundle.js"></script>
 <div id="jsi-flying-fish-container" class="fish-container"></div>
+
 <script src='https://api.hancat.link/cloud/fish.js'></script>
 ```
 ## 效果图  
