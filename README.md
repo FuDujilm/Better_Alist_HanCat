@@ -42,7 +42,7 @@
 <script src='https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/fish.js'></script>
 <!--Live2d支持-->
 <canvas id="paul" width="280" height="250"></canvas>
-<script src="https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/js/src/live2d.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/js/src/lib/live2d.min.js"></script>
 <!--引用模型 .json是模型文件-->
 <script>loadlive2d('chino', 'https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/js/chino_live2d/model.json');</script>
 
