@@ -32,7 +32,7 @@
 <div id="jsi-flying-fish-container" class="fish-container"></div>
 <script src='https://cdn.jsdelivr.net/gh/FuDujilm/Better_Alist_HanCat/fish.js'></script>
 ```
-'''html
+```html
 <!--未修改版-->
 <script src="https://api.hancat.link/cloud/jq.js"></script>
 	<div class="st-Container">
@@ -48,7 +48,7 @@
     <script src="https://api.hancat.link/cloud/app.bundle.js"></script>
 <div id="jsi-flying-fish-container" class="fish-container"></div>
 <script src='https://api.hancat.link/cloud/fish.js'></script>
-'''
+```
 ## 效果图  
 ![image](https://user-images.githubusercontent.com/109069769/235429828-fefd6ace-325f-4f75-9493-fca157c1f24e.png)  
 
